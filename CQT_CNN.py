@@ -146,4 +146,3 @@ model.save('CQT_CNN.h5')
 #%% load_model
 # Keras版本不同可能不能load，版本相近才有辦法
 from keras.models import load_model
-model_new = load_model('CQT_CNN.h5')
